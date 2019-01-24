@@ -231,3 +231,33 @@ footer{
 footer .footer-right{
   margin-right: 80px;
 }
+
+/*レスポンシブル対応します*/
+
+/*小型PC対応にします*/
+
+
+@media screen and (max-width:1200px){
+　.img-box{
+  justify-content: space-around;
+  }
+   .img-box li{
+    margin-right: 30px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

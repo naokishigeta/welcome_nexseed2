@@ -249,6 +249,8 @@ footer .footer-right{
 /*タブレットに対応します*/
 
 @media screen and (max-width:960px){
+
+  /*curriculumここから*/
   .img-box{
   flex-wrap: wrap;
   align-content: center;
@@ -257,6 +259,40 @@ footer .footer-right{
 .img-box li{
   margin-top:30px;
   margin-right: 0px;
+}
+
+/*curriculumここまで*/
+
+/*contactここから*/
+.contact{
+  height:100%;
+  padding:40px 20px;
+}
+
+.contact .form{
+  flex-flow: column nowrap;
+  margin:30px 0;
+}
+
+.form-left{
+  margin-right: 0;
+  margin-bottom:30px;
+
+}
+
+.form .name,
+.form .email{
+  width:80%;
+}
+
+.form .inquiry{
+  width:80%;
+}
+
+.contact button{
+  font-size:20px;
+  padding:5px 40px;
+  box-sizing:border-box;
 }
 
 }
